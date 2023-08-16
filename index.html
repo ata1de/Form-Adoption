@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/dog.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro IAC</title>
+</head>
+<body>
+    <div id="container">
+        <div id="left-side">
+            <img src="images/familyDogs.png" alt="Passeando feliz com seu cachorro">
+        </div>
+
+        <div id="right-side">
+            <form action="#">
+                <div id="header">
+                    <div class="titulo_header">
+                        <h1>Cadastre-se</h1>
+                    </div>
+                    <div class="button_header">
+                        <button><a href="#"></a>Entrar</button>
+                    </div>
+                </div>
+
+                <div id="input-group">
+                    <div class="input-box">
+                        <label for="firstname">Primeiro Nome</label>
+                        <input type="text" name="firstname" id="firstname" placeholder="Digite seu primeiro nome" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="secondname">Sobrenome</label>
+                        <input type="text" name="secondname" id="secondname" placeholder="Digite seu sobrenome" required>
+                    </div>
+
+                    <div class="input-box">
+                         <label for="email">E-mail</label>
+                        <input type="text" name="email" id="e-mail" placeholder="Digite seu primeiro e-mail" required>
+                    </div>
+
+                    <div class="input-box">
+                         <label for="phone">Celular</label>
+                        <input type="text" name="phone" id="phone" placeholder="(XX) XXXXX-XXXX" required>
+                    </div>
+
+                     <div class="input-box">
+                        <label for="password">Senha</label>
+                        <input type="password" name="password" id="password" placeholder="Digite sua senha" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="password">Confirme sua senha</label>
+                        <input type="password" name="password" id="confirmePassword" placeholder="Confirme sua senha" required oninput="">
+                    </div>
+
+                </div>
+
+                <div id = "gender-group">
+                    <div class="gender-input">
+                        <input type="radio" name="female" id="female">
+                        <label for="female">Feminino</label>
+
+                        <input type="radio" name="male" id="male">
+                        <label for="male">Masculino</label>
+
+                        <input type="radio" name="others" id="others">
+                        <label for="others">Outros</label>
+                    </div>
+                </div>
+
+                <div id="buttonConfirme">
+                    <button><a href="#"></a>Confirmar</button>
+                </div>
+            </form>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
