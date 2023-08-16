@@ -14,3 +14,21 @@ body {
     justify-content: center;
     background-color: #7AEA8C;
 }
+
+#container{
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    box-shadow: 5px 5px 10px rgba(0,0,0,.212);
+}
+
+#left-side{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#left-side img{
+    height: 80vh;
+}
