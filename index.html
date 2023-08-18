@@ -47,12 +47,13 @@
 
                      <div class="input-box">
                         <label for="password">Senha</label>
-                        <input type="password" name="password" id="password" placeholder="Digite sua senha" required>
+                        <input type="password" name="password" id="password" placeholder="Digite sua senha" required oninput="checkPasswords()">
                     </div>
 
                     <div class="input-box">
                         <label for="password">Confirme sua senha</label>
-                        <input type="password" name="password" id="confirmePassword" placeholder="Confirme sua senha" required oninput="">
+                        <input type="password" name="password" id="confirmePassword" placeholder="Confirme sua senha" required oninput="checkPasswords()">
+                        <!-- oneblur também serve para verificar se a senha é igual, ela verifica depois de sair de foco -->
                     </div>
 
                 </div>
