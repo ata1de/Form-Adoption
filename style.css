@@ -48,5 +48,41 @@ body {
 }
 
 #header{
+    margin-bottom: 3rem;
     display: flex;
+    justify-content: space-between;
+}
+
+.button-header{
+    display: flex;
+    align-items: center;
+}
+
+.button-header button {
+    border: none;
+    border-radius: 5px;
+    padding: 0.4rem 1rem;
+    background-color: #9C5463;
+    cursor: pointer;
+    /* muda o icone do mouse quando ele está por cima desse elemento */
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.button-header button a {
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+}
+
+#header h1::after{
+    content: '';
+    display: block;
+    width: 5rem;
+    height: 0.3rem;
+    background-color: #9C5463;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
 }
