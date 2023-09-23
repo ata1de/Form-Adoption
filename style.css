@@ -8,7 +8,7 @@
 
 body {
     height:100vh ;
-    width: 100vw;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,14 +16,14 @@ body {
 }
 
 #container{
-    width: 80vw;
+    width: 80%;
     height: 80vh;
     display: flex;
     box-shadow: 5px 5px 10px rgba(0,0,0,.212);
 }
 
 #left-side{
-    width: 40vw;
+    width: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -37,7 +37,7 @@ body {
 }
 
 #right-side{
-    width: 40vw;
+    width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -85,4 +85,9 @@ body {
     margin: 0 auto;
     position: absolute;
     border-radius: 10px;
+}
+
+#input-group{
+    display: flex;
+    flex-wrap: wrap;
 }
