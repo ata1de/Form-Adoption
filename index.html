@@ -47,13 +47,15 @@
 
                      <div class="input-box">
                         <label for="password">Senha</label>
-                        <input type="password" name="password" id="password" placeholder="Digite sua senha" required oninput="checkPasswords()">
+                        <input type="password" name="password" id="password" placeholder="Digite sua senha" required > 
+                        <!-- oninput="checkPasswords()" -->
                     </div>
 
                     <div class="input-box">
                         <label for="password">Confirme sua senha</label>
-                        <input type="password" name="password" id="confirmePassword" placeholder="Confirme sua senha" required oninput="checkPasswords()">
+                        <input type="password" name="password" id="confirmePassword" placeholder="Confirme sua senha" required>
                         <!-- oneblur também serve para verificar se a senha é igual, ela verifica depois de sair de foco -->
+                        <!-- oninput="checkPasswords()" -->
                     </div>
 
                 </div>
@@ -72,7 +74,7 @@
                 </div>
 
                 <div id="buttonConfirme">
-                    <button><a href="#"></a>Confirmar</button>
+                    <button><a href="#" type="button" onclick="checkPasswords()"></a>Confirmar</button>
                 </div>
             </form>
 

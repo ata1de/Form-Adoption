@@ -100,7 +100,7 @@ body {
 .input-box{
     display: flex;
     flex-direction: column;
-    /* padding-left: 5px; */
+    margin-bottom: 1rem;
 }
 
 .input-box input{
@@ -109,4 +109,8 @@ body {
     border: none;
     border-radius: 10px;
     box-shadow: 1px 1px 6px black;
+}
+
+.input-box input:hover{
+    box-shadow: 2px 2px 12px black;
 }
