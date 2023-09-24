@@ -112,5 +112,11 @@ body {
 }
 
 .input-box input:hover{
-    box-shadow: 2px 2px 12px black;
+    /* box-shadow: 2px 2px 12px black; */
+    background-color: #eeeeee75;
+}
+
+/* para mudar a cor da borda do input */
+.input-box input:focus-visible{
+    outline: 1px solid #74D463;
 }
