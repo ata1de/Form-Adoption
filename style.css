@@ -28,8 +28,10 @@ body {
     align-items: center;
     justify-content: center;
     padding: 1rem;
-    background-color: #fff;
+    background-color: #dd9f5d;
+    /* #DF86EB */
     /* #EBAA63 */
+    /* #EECEAB */
 }
 
 #left-side img{
@@ -62,7 +64,8 @@ body {
     border: none;
     border-radius: 5px;
     padding: 0.4rem 1rem;
-    background-color: #9C5463;
+    background-color: #74D463;
+    /* #9C5463 */
     cursor: pointer;
     /* muda o icone do mouse quando ele está por cima desse elemento */
     color: white;
@@ -81,7 +84,7 @@ body {
     display: block;
     width: 5rem;
     height: 0.3rem;
-    background-color: #9C5463;
+    background-color: #74D463;
     margin: 0 auto;
     position: absolute;
     border-radius: 10px;
