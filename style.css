@@ -120,3 +120,10 @@ body {
 .input-box input:focus-visible{
     outline: 1px solid #74D463;
 }
+
+.input-box label,
+.gender-title h6{
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: black;
+}
