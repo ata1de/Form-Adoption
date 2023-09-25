@@ -149,3 +149,19 @@ body {
     font-weight: 600;
     color: black
 }
+
+#button-confirme button{
+    width: 100%;
+    padding: 0.6rem;
+    margin-top: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #74D463;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#button-confirme button a{
+    text-decoration: none;
+}
