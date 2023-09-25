@@ -128,3 +128,24 @@ body {
     color: black;
 }
 
+.gender-inputs {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.62rem;
+    padding: 0 0.5rem;
+}
+
+.gender{
+    display: flex;
+    align-items: center;
+}
+
+.gender input{
+    margin-right: 0.35rem;
+}
+
+.gender label{
+    font-size: 0.81rem;
+    font-weight: 600;
+    color: black
+}
