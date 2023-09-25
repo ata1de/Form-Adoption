@@ -122,8 +122,9 @@ body {
 }
 
 .input-box label,
-.gender-title h6{
+.gender-title h6 {
     font-size: 0.75rem;
-    font-weight: 500;
+    font-weight: 600;
     color: black;
 }
+
